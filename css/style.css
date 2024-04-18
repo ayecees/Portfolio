@@ -590,6 +590,75 @@ a:focus {
     border-color: #004AAD;
 }
 
+.certifications {
+    position: relative;
+    padding: 45px 0 15px 0;
+}
+
+.certifications .section-header {
+    margin-bottom: 30px;
+}
+
+.certifications .certification-item {
+    position: relative;
+}
+
+.certifications .certification-wrap {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .12);
+    transition: 0.3s ease;
+}
+
+.certifications .certification-wrap:hover {
+    transform: translateY(-5px);
+}
+
+.certifications .certification-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.certifications .certification-img img {
+    width: 100%;
+    height: auto;
+    transition: 0.3s ease;
+}
+
+.certifications .certification-text h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0 10px 0;
+}
+
+.certifications .certification-text p {
+    font-size: 16px;
+    color: #777777;
+}
+
+@media (max-width: 991.98px) {
+    .certifications .certification-wrap {
+        margin-bottom: 15px;
+    }
+}
+
+.testimonial-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.testimonial-text {
+    text-align: center;
+}
+
+.testimonial-img img {
+    border-radius: 50%;
+}
+
 
 .contact {
     position: relative;
